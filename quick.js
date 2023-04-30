@@ -14,5 +14,4 @@ function quickSort(array) {
   }
   return [...quickSort(left_arr), pivot, ...quickSort(right_arr)];
 }
-const array = [5, 4, 8, 7, 12, 1];
-console.log(quickSort(array));
+console.log(quickSort([5, 4, 8, 7, 12, 1]));
